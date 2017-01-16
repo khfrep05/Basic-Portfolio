@@ -1,36 +1,49 @@
-h1 {background-color: #4aaaa5; 
-	color: white; 
-	padding-top: 0; 
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	margin-top: -10px;
-    margin-right: 2161px; 
-    margin-left: 110px; 
-    padding: 20px;}
+body {
+	background-color: lightgrey;
+}
 
+.main-wrap { width: 960px; 
+	margin: 0 auto; 
+
+}
+h1 {background-color: #4aaaa5; 
+	margin-top: 4px;
+	padding: 50px;
+	display: inline-block;
+	color: white;  
+	font-family: 'Georgia', Times, Times New Roman, serif;}
+	
 h2 {color: #4aaaa5; margin-left: 110px;
 	border-bottom-color: #dddddd; 
 	font-family: 'Georgia', Times, Times New Roman, serif;}
-
+header {
+	background-color: white;
+}
+section {
+	border-top: 4px solid #cccccc; 
+	
+}
 footer {background-color: #666666; 
-	text-align: center; color: white;
- 	position: absolute; border-top: 10px;	
- 	border-color: #4aaaa5;
+	text-align: center; 
+	color: white;
+ 	position: absolute; 
+ 	border-top: 12px solid #4aaaa5;
  	right: 0;
  	bottom: 0;
  	left: 0;
-  	padding: 1rem;}
+  	padding: 1rem 0;}
 
 p {color: #777777; 
 	text-align: left; 
 	padding-right: 5cm;
 	margin-right: 500px;}
 
-nav {position: fixed;
- margin-left: 1700px;
- top: 50px; 
+nav { 
  float: right;}
 
 ul {display: inline-block;}
+
+li{display: inline-block;}
 
 img {float: left; padding-right: 10px; margin-left::100px;}
 
