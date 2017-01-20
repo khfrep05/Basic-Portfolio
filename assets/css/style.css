@@ -75,8 +75,8 @@ p {color: #777777;
 	text-align: left; 
 	padding-right: 2cm;
 	margin-right: 0px; 
-	margin-top: 18px;
-	line-height: 33px;
+	margin-top: 15px;
+	line-height: 27px;
 	padding-left: 10px;
 	}
 
@@ -97,10 +97,10 @@ nav a
     border: none;
 }
 
-img {float: left;
- padding-right: 15px; 
- margin-left: 12px;
-   margin-top: 26px;
+img { float: left; 
+	padding-left: 10px;
+	 margin-top: 21px;
+	 padding-right: 10px;
 }
 
 .image123 { 
@@ -110,11 +110,13 @@ img {float: left;
 	margin: 0;
 	padding: 0px;
 	margin-top: 15px;
-}
+	float: left;
+ 
 
-#aboutdiv {height: 435px;
-	position: relative;
-}
+	}
+
+#aboutdiv {min-height: 435px;
+	}
 
 #aboutme { font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-left: 10px;
@@ -144,8 +146,38 @@ img {float: left;
 	padding: 2px;
 	}	
 
-.image { position: relative; 
+.image { 
 	width: 275px; 
 	height: 188px; 
-
+	}
 	
+
+.imagewrapper	{ width: 44%; 
+	height: 40%;
+	display: inline-block;    
+     margin-left: 14px;
+    margin-top: 19px;
+	}
+
+.imagewrapper h2 {  width: 100%; 
+	margin-top: 43%;
+	background-color: teal;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 12px 0;
+}
+
+#rpggame {background-image: url(../images/RPGGame.jpg);}
+
+
+#TriviaGame {background-image: url(../images/TriviaGame.jpg);}
+
+#Rutger {background-image: url(../images/RutgerInfoWidget.jpg);}
+
+#Rock {background-image: url(../images/RockPaperScissors.jpg);}
+
+#Hangman {background-image: url(../images/Hangman.jpg);}
+
+textarea {width: 577px;
+	}
